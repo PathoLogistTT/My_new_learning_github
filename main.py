@@ -1,5 +1,5 @@
 # Вариант-345 
-
+# Консольное приложение
 import task_3
 import task_4
 import task_5
