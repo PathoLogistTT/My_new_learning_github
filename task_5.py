@@ -1,6 +1,6 @@
 import random
 from functools import reduce
-
+# Модуль 5
 def input_array_and_number():
     array = []
     while True:
