@@ -1,6 +1,6 @@
 import numpy as np
+# Модуль переворачивания матрицы по или против часовой стрелки
 
-# против часовой
 def rotate_clockwise(matrix):
     return np.rot90(matrix, k=-1)
 

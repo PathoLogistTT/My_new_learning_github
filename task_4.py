@@ -1,6 +1,5 @@
 import random
 
-# ввод вручную
 def manual_input():
     while True:
         array1 = input("\nвведите элементы первого массива через пробел: ").split()
