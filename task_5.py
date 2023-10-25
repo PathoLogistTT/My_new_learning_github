@@ -5,7 +5,7 @@ def input_array_and_number():
     array = []
     while True:
         try:
-            num_elements = int(input("Введите количество элементов в массиве: "))
+            num_elements = int(input("введите количество элементов в массиве: "))
             break
         except ValueError:
             print("Некорректный ввод. Пожалуйста, введите целое число.")
@@ -49,7 +49,7 @@ def get_subarrays_with_target_sum(array, num):
 
     return result
 
-def sum_subarray():
+def subarray():
     array = []
     num = None
     point = False

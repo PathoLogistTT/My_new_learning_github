@@ -6,7 +6,7 @@ import task_5
 
 def main():
     while True:
-        print("\nОСНОВНОЕ МЕНЮ:")
+        print("\nосновное меню:")
         print("1. Повернуть матрицу по или против часовой стрелки на 90 градусов")
         print("2. Сложение или вычитание массивов")
         print("3. Сумма подмножеств конкретного числа")
@@ -21,7 +21,7 @@ def main():
             task_4.sum_diff_array()
             
         elif choice == "3":
-            task_5.sum_subarray()
+            task_5.subarray()
             
         elif choice == "4":
             break

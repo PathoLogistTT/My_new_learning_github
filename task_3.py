@@ -17,8 +17,8 @@ def generate_random_matrix():
 def input_column_and_row():
     while True:
         try:
-            n = int(input("\nВведите количество строк: "))
-            m = int(input("Введите количество столбцов: "))
+            n = int(input("\nвведите количество строк: "))
+            m = int(input("введите количество столбцов: "))
         
             if n <= 0 or m <= 0 or n != int(n) or m != int(m):
                 raise ValueError

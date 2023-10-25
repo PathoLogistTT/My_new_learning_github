@@ -3,8 +3,8 @@ import random
 # ввод вручную
 def manual_input():
     while True:
-        array1 = input("\nВведите элементы первого массива через пробел: ").split()
-        array2 = input("Введите элементы второго массива через пробел: ").split()
+        array1 = input("\nвведите элементы первого массива через пробел: ").split()
+        array2 = input("введите элементы второго массива через пробел: ").split()
         
         try:
             if all(0 <= int(num) <= 9 for num in array1) and \
